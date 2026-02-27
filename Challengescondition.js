@@ -46,7 +46,7 @@ if (aaglagadi){
 }
 
 //checking if an array is empty or not
-let item = [];
+let item = ["item1"];
 console.log(item.length);
 
 if (item.length === 0){
