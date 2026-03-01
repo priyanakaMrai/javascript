@@ -8,3 +8,12 @@ while (i <= 5){
     i++;
 }
 console.log(sum);
+
+// while loop that counts down from 5 to 1 and stores numbers in an array 
+let countdown = [];
+let j = 5;
+while(j>0){
+    countdown.push(j);
+    j--;
+}
+console.log(countdown);
